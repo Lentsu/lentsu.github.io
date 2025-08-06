@@ -1,0 +1,23 @@
+baseURL = 'https://lentsu.github.io/'
+languageCode = 'en-us'
+title = 'Lenni Toikkanen'
+theme = 'typo'
+
+[params]
+homeIntroTitle = 'Hello!'
+homeIntroContent = """
+I'm Lenni, a electronics and nanoengineering M.Sc. (Tech) student at Aalto University
+"""
+
+[[params.menu]]
+name = "Home"
+url = "/"
+
+[[params.menu]]
+name = "Projects"
+url = "/projects"
+
+[[params.menu]]
+name = "Contact"
+url = "/contact"
+
