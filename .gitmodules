@@ -1,12 +1,3 @@
-[submodule "themes/paper"]
-	path = themes/paper
-	url = https://github.com/nanxiaobei/hugo-paper
 [submodule "themes/typo"]
 	path = themes/typo
-	url = https://github.com/tomfran/typo
-[submodule "themes/theme"]
-	path = themes/theme
-	url = https://github.com/lentsu/theme
-[submodule "themes/typo-custom"]
-	path = themes/typo-custom
-	url = git@github.com:Lentsu/typo-custom.git
+	url = git@github.com:tomfran/typo.git

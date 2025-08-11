@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiences on Lenni Toikkanen</title>
+    <link>http://localhost:1313/experience/</link>
+    <description>Recent content in Experiences on Lenni Toikkanen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Aug 2025 19:21:55 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abb Software Testing</title>
+      <link>http://localhost:1313/experience/abb-software-testing/</link>
+      <pubDate>Mon, 11 Aug 2025 19:21:55 +0300</pubDate>
+      <guid>http://localhost:1313/experience/abb-software-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aalto Research Assistant</title>
+      <link>http://localhost:1313/experience/aalto-research-assistant/</link>
+      <pubDate>Mon, 11 Aug 2025 19:21:45 +0300</pubDate>
+      <guid>http://localhost:1313/experience/aalto-research-assistant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Espoo Tech Support</title>
+      <link>http://localhost:1313/experience/espoo-tech-support/</link>
+      <pubDate>Mon, 11 Aug 2025 19:21:37 +0300</pubDate>
+      <guid>http://localhost:1313/experience/espoo-tech-support/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

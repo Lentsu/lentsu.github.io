@@ -2,7 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/bachelors-thesis/</loc>
+    <loc>http://localhost:1313/resume/</loc>
+    <lastmod>2025-08-11T19:23:23+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/education/aalto-msc-electronics-and-nanoengineering/</loc>
+    <lastmod>2025-08-11T19:23:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/education/</loc>
+    <lastmod>2025-08-11T19:23:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experience/abb-software-testing/</loc>
+    <lastmod>2025-08-11T19:21:55+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experience/</loc>
+    <lastmod>2025-08-11T19:21:55+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experience/aalto-research-assistant/</loc>
+    <lastmod>2025-08-11T19:21:45+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/experience/espoo-tech-support/</loc>
+    <lastmod>2025-08-11T19:21:37+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/education/aalto-bsc-electrical-engineering/</loc>
+    <lastmod>2025-08-11T19:10:46+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/bachelors-thesis/</loc>
     <lastmod>2025-08-06T23:53:17+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/instruction-set-architecture/</loc>
@@ -14,7 +38,7 @@
     <loc>http://localhost:1313/tags/operating-systems/</loc>
     <lastmod>2025-08-06T23:53:17+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-08-06T23:53:17+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/risc-v/</loc>

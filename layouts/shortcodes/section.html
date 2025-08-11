@@ -1,0 +1,4 @@
+{{ $name := .Get 0 }}
+{{ with site.GetPage (printf "section/%s" $name) }}
+    {{ .Render "list" }}
+{{ end }}
