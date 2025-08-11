@@ -1,5 +1,25 @@
 +++
 date = '2025-08-11T19:10:46+03:00'
-draft = true
-title = 'Bsc Electrical Engineering'
+start_date = 'Aug 2021'
+end_date = 'May 2025'
+draft = false 
+title = 'Aalto University - B.Sc. (Tech) Electronics and Electrical Engineering'
+summary = 'Majored in Electronics & Electrical Engineering, minored in Computer Science.'
+tags = ["Electronics", "Programming", "Electrical Engineering", "Signal Processing", "Operating Systems", "Data Structures", "Algorithms"]
+showTags = true
 +++
+
+GPA: 3.43 / 5.00
+
+Central coursework included:
+- ELEC-C3230/3240 - Electronics 1/2
+- ELEC-C4140 - (Electromagnetic) Field Theory 
+- ELEC-A7200 - Signals and Systems 
+- ELEC-A7100 - Basic Course in C programming
+- ELEC-C7241 - Computer Networks 
+- CS-C3140 - Operating Systems
+- CS-A1140 - Data Structures and Algorithms
+
+And much more.
+
+Check out my Bachelor's thesis [HERE](/projects/bachelors-thesis).
