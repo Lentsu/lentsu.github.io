@@ -1,8 +1,7 @@
 +++
 date = '2025-08-11T19:10:46+03:00'
-start_date = 'Aug 2021'
-end_date = 'May 2025'
-draft = false 
+start_date = '2021-08-01'
+end_date = '2025-05-01'
 title = 'Aalto University - B.Sc. (Tech) Electronics and Electrical Engineering'
 summary = 'Majored in Electronics & Electrical Engineering, minored in Computer Science.'
 tags = ["Electronics", "Programming", "Electrical Engineering", "Signal Processing", "Operating Systems", "Data Structures", "Algorithms"]
