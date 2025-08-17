@@ -19,7 +19,7 @@
     {{ range $index, $page := $paginator.Pages }}
 
         {{ if $tagsPage }}
-            {{ partial "tag-entry.html" $page}}
+            {{ partial "timeline-tag-entry.html" $page}}
         {{ else }}
             {{ partial "timeline-entry.html" $page}}
         {{ end }}

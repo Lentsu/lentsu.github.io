@@ -1,5 +1,5 @@
 +++
-date = '2025-08-06T23:53:17+03:00'
+date = '2025-05-12'
 draft = true
 title = 'Bachelors Thesis'
 author = "Lenni Toikkanen"
@@ -16,3 +16,4 @@ hideBackToTop = false
 fediverse = "@username@instance.url"
 +++
 
+{{< embed-pdf url="" >}}

@@ -1,7 +1,7 @@
 +++
 date = '2025-08-11T19:10:46+03:00'
 start_date = '2021-08-01'
-end_date = '2025-05-01'
+end_date = '2025-05-31'
 title = 'Aalto University - B.Sc. (Tech) Electronics and Electrical Engineering'
 summary = 'Majored in Electronics & Electrical Engineering, minored in Computer Science.'
 tags = ["Electronics", "Programming", "Electrical Engineering", "Signal Processing", "Operating Systems", "Data Structures", "Algorithms"]
@@ -21,4 +21,4 @@ Central coursework included:
 
 And much more.
 
-Check out my Bachelor's thesis [HERE](/projects/bachelors-thesis).
+Check out my [Bachelor's thesis](/projects/bachelors-thesis).

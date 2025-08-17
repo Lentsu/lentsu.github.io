@@ -1,7 +1,10 @@
 baseURL = 'https://lentsu.github.io/'
 languageCode = 'en-us'
 title = 'Lenni Toikkanen'
-theme = 'typo'
+theme = ['hugo-embed-pdf-shortcode', 'typo']
+
+# Enable shortcodes
+enableInlineShortcodes = true
 
 # Google analytics code
 googleAnalytics = "G-xxxxxxxxx"
@@ -29,8 +32,8 @@ I'm Lenni, a M.Sc. (tech) electronics and nanoengineering student at Aalto Unive
 homePicture = "/profile.jpg"
 
 # Collection to display on home
-homeCollectionTitle = 'Projects'
-homeCollection = 'projects'
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
 
 # Lists parameters
 paginationSize = 100
@@ -62,8 +65,8 @@ name = "Home"
 url = "/"
 
 [[params.menu]]
-name = "Projects"
-url = "/projects"
+name = "Posts"
+url = "/posts"
 
 [[params.menu]]
 name = "Experience"
@@ -72,10 +75,6 @@ url = "/experience"
 [[params.menu]]
 name = "Education"
 url = "/education"
-
-[[params.menu]]
-name = "Contact"
-url = "/contact"
 
 # Syntax highlight on code blocks
 [markup]

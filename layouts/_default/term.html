@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<ul>
+{{ range .Pages }}
+    <li>
+    {{ if or (eq .Section "experience") (eq .Section "education") }}
+        {{ partial "timeline-tag.html" . }}
+    {{ else if eq .Section "posts" }}
+        {{ partial "post-entry.html" . }}
+    {{ end }}
+    </li>
+{{ end }}
+</ul>
+{{ end }}
