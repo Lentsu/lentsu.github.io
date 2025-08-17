@@ -76,10 +76,17 @@ url = "/experience"
 name = "Education"
 url = "/education"
 
-# Syntax highlight on code blocks
 [markup]
-[markup.highlight]
-style = 'algol'
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enables raw HTML tags in Markdown (e.g., <img>, <iframe>)
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    style = "algol"
 
 # Giscus comments
 [params.giscus]
