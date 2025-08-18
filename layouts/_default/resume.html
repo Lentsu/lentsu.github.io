@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+{{ partial "breadcrumbs.html" . }}
+
+<h2 class="heading">
+    Experience
+    <a class="anchor" href="/experience/">#</a>
+</h2>
+
+{{ range where .Site.RegularPages "Section" "experience" }}
+    {{ partial "timeline-entry.html" . }}
+{{ end }}
+
+<h2 class="heading">
+    Education
+    <a class="anchor" href="/education/">#</a>
+</h2>
+
+{{ range where .Site.RegularPages "Section" "education" }}
+    {{ partial "timeline-entry.html" . }}
+{{ end }}
+
+{{ .Content }}
+
+{{ end }}

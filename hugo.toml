@@ -6,9 +6,6 @@ theme = ['hugo-embed-pdf-shortcode', 'typo']
 # Enable shortcodes
 enableInlineShortcodes = true
 
-# Google analytics code
-googleAnalytics = "G-xxxxxxxxx"
-
 [taxonomies]
 tag = 'tags'
 
@@ -32,7 +29,7 @@ I'm Lenni, a M.Sc. (tech) electronics and nanoengineering student at Aalto Unive
 homePicture = "/profile.jpg"
 
 # Collection to display on home
-homeCollectionTitle = 'Posts'
+homeCollectionTitle = 'Recent'
 homeCollection = 'posts'
 
 # Lists parameters
@@ -57,7 +54,7 @@ url = "https://github.com/Lentsu"
 
 [[params.social]]
 name = "gmail"
-url = "mailto:mail@lennitoikkanen.fi"
+url = "mailto:lenni.toikkanen@gmail.com"
 
 # Main menu pages
 [[params.menu]]
@@ -69,31 +66,17 @@ name = "Posts"
 url = "/posts"
 
 [[params.menu]]
-name = "Experience"
-url = "/experience"
-
-[[params.menu]]
-name = "Education"
-url = "/education"
+name = "Resume"
+url = "/resume"
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
+defaultMarkdownHandler = "goldmark"
 
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true  # Enables raw HTML tags in Markdown (e.g., <img>, <iframe>)
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true  # Enables raw HTML tags in Markdown (e.g., <img>, <iframe>)
 
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    style = "algol"
-
-# Giscus comments
-[params.giscus]
-enable = false
-repo = "user/repo"
-repoid = "repoId"
-category = "General"
-categoryid = "categoryId"
-mapping = "pathname"
-theme = "preferred_color_scheme"
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+style = "algol"

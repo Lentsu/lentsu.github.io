@@ -5,7 +5,6 @@ title = 'Bachelors Thesis'
 author = "Lenni Toikkanen"
 authorAvatarPath = "/profile.jpg"
 summary = "In my bachelor's thesis I explore the operating system boot process and general hardware requirements for common OS services, and outline how RISC-V Instruction Set Architecture answers these requirements."
-description = "test"
 toc = false
 readTime = false 
 autonumber = true

@@ -19,6 +19,4 @@ Central coursework included:
 - CS-C3140 - Operating Systems
 - CS-A1140 - Data Structures and Algorithms
 
-And much more.
-
 Check out my [Bachelor's thesis](/projects/bachelors-thesis).
