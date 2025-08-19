@@ -1,6 +1,5 @@
 +++
 date = '2025-05-12'
-draft = true
 title = 'Bachelors Thesis'
 author = "Lenni Toikkanen"
 authorAvatarPath = "/profile.jpg"
