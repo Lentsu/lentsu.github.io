@@ -80,3 +80,7 @@ unsafe = true  # Enables raw HTML tags in Markdown (e.g., <img>, <iframe>)
 codeFences = true
 guessSyntax = true
 style = "algol"
+
+[cache]
+[caches.images]
+dir = ':cacheDir/images'
