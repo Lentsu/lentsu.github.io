@@ -4,7 +4,7 @@ start_date = '2021-08-01'
 end_date = '2025-05-31'
 title = 'Aalto University - B.Sc. (Tech) Electronics and Electrical Engineering'
 summary = 'Majored in Electronics & Electrical Engineering, minored in Computer Science.'
-tags = ["Electronics", "Programming", "Electrical Engineering", "Signal Processing", "Operating Systems", "Data Structures", "Algorithms"]
+tags = ["Electronics", "Electrical Engineering", "Signal Processing", "Operating Systems", "Data Structures", "Algorithms"]
 showTags = true
 +++
 
