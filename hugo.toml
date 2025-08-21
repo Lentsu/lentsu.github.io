@@ -1,4 +1,4 @@
-baseURL = 'https://lentsu.github.io/'
+baseURL = 'https://lennitoikkanen.fi/'
 languageCode = 'en-us'
 title = 'Lenni Toikkanen'
 theme = ['hugo-embed-pdf-shortcode', 'typo']
