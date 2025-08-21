@@ -1,0 +1,45 @@
+{{/* Header */}}
+
+<div class="header">
+
+    {{ if or (not (.Param "hideHeader")) .IsHome }}
+
+    <h1 class="header-title">
+        <a href="{{ site.BaseURL }}">{{ site.Title }}</a>
+    </h1>
+
+    <div class="header-menu">
+        {{ $currentPage := . }}
+
+        {{ with site.Params.menu }}
+        {{ range . }}
+
+        <p
+            class="small {{ if eq .name (lower $currentPage.Name) }} bold {{end}}">
+            <a href="{{ .url }}" {{ if and (isset . "newTab") .newTab
+                }}target="_blank" rel="noopener noreferrer" {{ end }}>
+                /{{.name }}
+            </a>
+        </p>
+        {{ end }}
+        {{ end }}
+
+        <!-- Theme switch button -->
+        <button id="theme-toggle" class="theme-toggle" style="margin-left: auto">
+            <!-- Sun icon -->
+            <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 4.5V2m0 20v-2.5M4.5 12H2m20 0h-2.5M5.64 5.64l-1.77-1.77m15.26 15.26-1.77-1.77M5.64 18.36l-1.77 1.77m15.26-15.26-1.77 1.77M12 7a5 5 0 100 10 5 5 0 000-10z"/>
+            </svg>
+            <!-- Moon icon (hidden initially) -->
+            <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" style="display:none;">
+                <path d="M21.75 15.5A9.75 9.75 0 1112.5 2.25a7.5 7.5 0 009.25 13.25z"/>
+            </svg>
+        </button>
+    </div>
+
+    {{ end }}
+
+</div>
+
+<!-- Load theme-switch.js -->
+<script src="{{ "js/toggle-theme.js" | relURL }}" defer></script>
