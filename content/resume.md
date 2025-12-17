@@ -9,4 +9,3 @@ layout = 'resume'
 - Finnish -- Native Language
 - English -- Excellent
 - Swedish -- Limited working proficiency
-- Korean -- Elementary proficiency (CEFR A1)
