@@ -3,11 +3,11 @@ date = '2025-08-11T19:23:10+03:00'
 start_date = '2025-09-01'
 title = 'Aalto University - M.Sc. (Tech) Electronics and Nanotechnology'
 summary = 'Majoring in Microelectronic Circuit Design.'
-tags = ["IC Design", "Electronics", "Electrical Engineering", "MATLAB/Mathematica", "Cadence Virtuoso", "LTSpice", "Siemens Eldo Platform", "Field Theory"]
+tags = ["IC Design", "Electronics", "Electrical Engineering", "MATLAB/Mathematica", "Cadence Virtuoso", "LTSpice", "Siemens Eldo Platform", "Field Theory", "Signal Processing"]
 showTags = true
 +++
 
-**GPA: - / 5.00**
+**GPA: 3.67 / 5.00**
 
 ## Coursework Topics
 
