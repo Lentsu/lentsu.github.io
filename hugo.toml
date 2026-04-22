@@ -56,6 +56,10 @@ url = "https://github.com/Lentsu"
 name = "gmail"
 url = "mailto:lenni.toikkanen@gmail.com"
 
+[[params.social]]
+name = "mastodon"
+url = "https://mastodon.social/@lentsu"
+
 # Main menu pages
 [[params.menu]]
 name = "Home"

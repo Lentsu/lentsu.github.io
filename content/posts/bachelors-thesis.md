@@ -11,7 +11,8 @@ math = true
 tags = ["RISC-V", "Operating Systems", "Linux", "Zephyr"]
 showTags = true
 hideBackToTop = true 
-fediverse = "@username@instance.url"
+
+comments = { host = "mastodon.social", username = "lentsu", id = 116449248751899711}
 +++
 
 {{< embed-pdf url="/Toikkanen_Lenni_2025.pdf" >}}
