@@ -7,7 +7,7 @@ tags = ["IC Design", "Electronics", "Digital Design", "Analog Design", "CMOS", "
 showTags = true
 +++
 
-**GPA: 3.67 / 5.00**
+**GPA: 3.50 / 5.00**
 
 ## Coursework Topics
 
@@ -21,3 +21,4 @@ showTags = true
 **Elective Studies**:
 - Computer Architectures with RISC-V
 - Audio Signal Processing
+- Wireless Systems

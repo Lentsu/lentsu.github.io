@@ -6,6 +6,6 @@ layout = 'resume'
 +++
 
 ## Languages
-- Finnish -- Native Language
-- English -- Excellent
-- Swedish -- Limited working proficiency
+- **Finnish** -- Native Language
+- **English** -- Excellent
+- **Swedish** -- Limited working proficiency
