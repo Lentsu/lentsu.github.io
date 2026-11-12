@@ -4,7 +4,7 @@ start_date = '2026-06-15'
 end_date = '2026-08-31'
 title = 'Aalto Research Assistant'
 summary = 'Worked with booting Operating Systems in the Aalto Microelectronics Research unit METKA'
-tags = ['RISC-V', 'C/C++', 'Python', 'IC Design', 'Linux']
+tags = ['RISC-V', 'C/C++', 'Python', 'IC Design', 'Linux', 'Operating Systems']
 showTags = true
 +++
 
